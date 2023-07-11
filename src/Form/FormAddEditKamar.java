@@ -48,9 +48,9 @@ public class FormAddEditKamar extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
 
-        jPanel2.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel2.setBackground(new java.awt.Color(0, 153, 153));
 
-        l_judul.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        l_judul.setFont(new java.awt.Font("Serif", 1, 18)); // NOI18N
         l_judul.setForeground(new java.awt.Color(255, 255, 255));
         l_judul.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         l_judul.setText("JUDUL");
@@ -72,19 +72,31 @@ public class FormAddEditKamar extends javax.swing.JDialog {
                 .addContainerGap())
         );
 
+        jLabel1.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         jLabel1.setText("Kode Kamar");
 
+        jLabel2.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         jLabel2.setText("Lantai");
 
+        jLabel3.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         jLabel3.setText("No Kamar");
 
+        jLabel4.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         jLabel4.setText("Tipe Kamar");
 
+        jLabel5.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         jLabel5.setText("Harga/Kamar");
 
+        t_kode_kamar.setFont(new java.awt.Font("Serif", 0, 12)); // NOI18N
+
+        t_lantai.setFont(new java.awt.Font("Serif", 0, 12)); // NOI18N
+
+        c_tipe_kamar.setFont(new java.awt.Font("Serif", 0, 12)); // NOI18N
         c_tipe_kamar.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Pilih--", "VIP", "Bisnis", "Ekonomi" }));
 
-        b_simpan.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        t_no_kamar.setFont(new java.awt.Font("Serif", 0, 12)); // NOI18N
+
+        b_simpan.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         b_simpan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/accept.png"))); // NOI18N
         b_simpan.setText("Simpan");
         b_simpan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -94,8 +106,8 @@ public class FormAddEditKamar extends javax.swing.JDialog {
             }
         });
 
-        b_reset.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        b_reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/refresh.png"))); // NOI18N
+        b_reset.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
+        b_reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/refresh_561210.png"))); // NOI18N
         b_reset.setText("Reset");
         b_reset.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_reset.addActionListener(new java.awt.event.ActionListener() {
@@ -103,6 +115,8 @@ public class FormAddEditKamar extends javax.swing.JDialog {
                 b_resetActionPerformed(evt);
             }
         });
+
+        t_harga_perkamar.setFont(new java.awt.Font("Serif", 0, 12)); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -132,7 +146,7 @@ public class FormAddEditKamar extends javax.swing.JDialog {
                                         .addComponent(b_simpan)
                                         .addGap(18, 18, 18)
                                         .addComponent(b_reset, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(0, 80, Short.MAX_VALUE)))))
+                                .addGap(0, 77, Short.MAX_VALUE)))))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(

@@ -37,7 +37,6 @@ public class FormMain extends javax.swing.JFrame {
         l_jam = new javax.swing.JLabel();
         l_id_admin1 = new javax.swing.JLabel();
         l_id_admin = new javax.swing.JLabel();
-        l_admin = new javax.swing.JLabel();
         b_logout = new javax.swing.JButton();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         panel_karyawan = new javax.swing.JPanel();
@@ -73,32 +72,32 @@ public class FormMain extends javax.swing.JFrame {
         t_cari_tamu = new javax.swing.JTextField();
         jPanel8 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
+        l_admin = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/business_usersa.png"))); // NOI18N
-        jLabel8.setText("SISTEM PEMESANAN KAMAR HOTEL");
+        jLabel8.setFont(new java.awt.Font("Perpetua Titling MT", 1, 24)); // NOI18N
+        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/hotel-sign_527079.png"))); // NOI18N
+        jLabel8.setText("APLIKASI PEMESANAN KAMAR HOTEL");
 
-        l_tanggal.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        l_tanggal.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        l_tanggal.setFont(new java.awt.Font("Serif", 0, 18)); // NOI18N
+        l_tanggal.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         l_tanggal.setText("Tanggal");
 
-        l_jam.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        l_jam.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        l_jam.setFont(new java.awt.Font("Serif", 0, 18)); // NOI18N
+        l_jam.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         l_jam.setText("Jam");
 
-        l_id_admin1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        l_id_admin1.setFont(new java.awt.Font("Serif", 0, 18)); // NOI18N
         l_id_admin1.setText("Admin : ");
 
-        l_id_admin.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        l_id_admin.setFont(new java.awt.Font("Serif", 0, 18)); // NOI18N
         l_id_admin.setText("Admin");
 
-        l_admin.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        l_admin.setText("Admin");
-
-        b_logout.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        b_logout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/lock_1.png"))); // NOI18N
+        b_logout.setBackground(new java.awt.Color(255, 0, 51));
+        b_logout.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
+        b_logout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/log-out_3596149.png"))); // NOI18N
         b_logout.setText("Log Out");
         b_logout.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_logout.addActionListener(new java.awt.event.ActionListener() {
@@ -107,8 +106,8 @@ public class FormMain extends javax.swing.JFrame {
             }
         });
 
-        b_refersh_karyawan.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        b_refersh_karyawan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/refresh.png"))); // NOI18N
+        b_refersh_karyawan.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
+        b_refersh_karyawan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/refresh_561210.png"))); // NOI18N
         b_refersh_karyawan.setText("Refresh");
         b_refersh_karyawan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_refersh_karyawan.addActionListener(new java.awt.event.ActionListener() {
@@ -127,7 +126,7 @@ public class FormMain extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(tbl_karyawan);
 
-        b_tambah_karyawan.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        b_tambah_karyawan.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         b_tambah_karyawan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/add.png"))); // NOI18N
         b_tambah_karyawan.setText("Tambah");
         b_tambah_karyawan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -137,7 +136,7 @@ public class FormMain extends javax.swing.JFrame {
             }
         });
 
-        b_edit_karyawan.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        b_edit_karyawan.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         b_edit_karyawan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/ruler_pencil.png"))); // NOI18N
         b_edit_karyawan.setText("Edit");
         b_edit_karyawan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -147,7 +146,7 @@ public class FormMain extends javax.swing.JFrame {
             }
         });
 
-        b_delete_karyawan.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        b_delete_karyawan.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         b_delete_karyawan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/delete.png"))); // NOI18N
         b_delete_karyawan.setText("Delete");
         b_delete_karyawan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -175,9 +174,10 @@ public class FormMain extends javax.swing.JFrame {
             }
         });
 
-        jPanel4.setBackground(new java.awt.Color(51, 82, 72));
+        jPanel4.setBackground(new java.awt.Color(0, 153, 153));
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel3.setBackground(new java.awt.Color(204, 255, 153));
+        jLabel3.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel3.setText("Data Karyawan");
@@ -211,7 +211,7 @@ public class FormMain extends javax.swing.JFrame {
                         .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(b_refersh_karyawan, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 811, Short.MAX_VALUE))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 814, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(panel_karyawanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(b_tambah_karyawan, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -234,7 +234,7 @@ public class FormMain extends javax.swing.JFrame {
                         .addComponent(b_edit_karyawan)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(b_delete_karyawan)
-                        .addGap(0, 115, Short.MAX_VALUE))
+                        .addGap(0, 98, Short.MAX_VALUE))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(panel_karyawanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -245,8 +245,8 @@ public class FormMain extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Karyawan", panel_karyawan);
 
-        b_refersh_kamar.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        b_refersh_kamar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/refresh.png"))); // NOI18N
+        b_refersh_kamar.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
+        b_refersh_kamar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/refresh_561210.png"))); // NOI18N
         b_refersh_kamar.setText("Refresh");
         b_refersh_kamar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_refersh_kamar.addActionListener(new java.awt.event.ActionListener() {
@@ -265,7 +265,7 @@ public class FormMain extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(tbl_kamar);
 
-        b_tambah_kamar.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        b_tambah_kamar.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         b_tambah_kamar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/add.png"))); // NOI18N
         b_tambah_kamar.setText("Tambah");
         b_tambah_kamar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -275,7 +275,7 @@ public class FormMain extends javax.swing.JFrame {
             }
         });
 
-        b_edit_kamar.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        b_edit_kamar.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         b_edit_kamar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/ruler_pencil.png"))); // NOI18N
         b_edit_kamar.setText("Edit");
         b_edit_kamar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -285,7 +285,7 @@ public class FormMain extends javax.swing.JFrame {
             }
         });
 
-        b_delete_kamar.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        b_delete_kamar.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         b_delete_kamar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/delete.png"))); // NOI18N
         b_delete_kamar.setText("Delete");
         b_delete_kamar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -313,9 +313,9 @@ public class FormMain extends javax.swing.JFrame {
             }
         });
 
-        jPanel6.setBackground(new java.awt.Color(51, 82, 72));
+        jPanel6.setBackground(new java.awt.Color(0, 153, 153));
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel4.setText("Data Kamar");
@@ -349,7 +349,7 @@ public class FormMain extends javax.swing.JFrame {
                         .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(b_refersh_kamar, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 811, Short.MAX_VALUE))
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 814, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(panel_kamarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(b_tambah_kamar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -383,8 +383,8 @@ public class FormMain extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Kamar", panel_kamar);
 
-        b_refersh_tamu.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        b_refersh_tamu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/refresh.png"))); // NOI18N
+        b_refersh_tamu.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
+        b_refersh_tamu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/refresh_561210.png"))); // NOI18N
         b_refersh_tamu.setText("Refresh");
         b_refersh_tamu.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_refersh_tamu.addActionListener(new java.awt.event.ActionListener() {
@@ -403,7 +403,7 @@ public class FormMain extends javax.swing.JFrame {
         ));
         jScrollPane4.setViewportView(tbl_tamu);
 
-        b_tambah_tamu.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        b_tambah_tamu.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         b_tambah_tamu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/add_image.png"))); // NOI18N
         b_tambah_tamu.setText("Cek In");
         b_tambah_tamu.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -413,7 +413,7 @@ public class FormMain extends javax.swing.JFrame {
             }
         });
 
-        b_cekout.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        b_cekout.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         b_cekout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/delete_image.png"))); // NOI18N
         b_cekout.setText("Cek Out");
         b_cekout.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -423,7 +423,7 @@ public class FormMain extends javax.swing.JFrame {
             }
         });
 
-        b_history.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        b_history.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         b_history.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/pin.png"))); // NOI18N
         b_history.setText("History");
         b_history.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -451,9 +451,9 @@ public class FormMain extends javax.swing.JFrame {
             }
         });
 
-        jPanel8.setBackground(new java.awt.Color(51, 82, 72));
+        jPanel8.setBackground(new java.awt.Color(0, 153, 153));
 
-        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel6.setText("Data Tamu");
@@ -487,7 +487,7 @@ public class FormMain extends javax.swing.JFrame {
                         .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(b_refersh_tamu, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 811, Short.MAX_VALUE))
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 813, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(panel_tamuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(b_tambah_tamu, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -521,6 +521,9 @@ public class FormMain extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Tamu", panel_tamu);
 
+        l_admin.setFont(new java.awt.Font("Serif", 0, 18)); // NOI18N
+        l_admin.setText("Admin");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -530,18 +533,18 @@ public class FormMain extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(l_jam, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(l_tanggal, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(l_tanggal, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)
+                            .addComponent(l_jam, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(l_id_admin1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(l_id_admin)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(l_admin)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(b_logout)))
+                        .addComponent(b_logout, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
             .addComponent(jTabbedPane1)
         );
@@ -552,17 +555,18 @@ public class FormMain extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
+                        .addGap(18, 18, 18)
                         .addComponent(l_jam)
                         .addGap(18, 18, 18)
                         .addComponent(l_tanggal)))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(l_id_admin)
-                    .addComponent(b_logout)
-                    .addComponent(l_admin)
-                    .addComponent(l_id_admin1))
+                    .addComponent(b_logout, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(l_id_admin1)
+                    .addComponent(l_admin))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 366, Short.MAX_VALUE)
+                .addComponent(jTabbedPane1)
                 .addContainerGap())
         );
 

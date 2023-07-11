@@ -70,9 +70,12 @@ public class FormCheckIn extends javax.swing.JDialog {
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setResizable(false);
 
-        jPanel2.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setForeground(new java.awt.Color(0, 153, 153));
 
-        l_judul.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jPanel2.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel2.setForeground(new java.awt.Color(0, 153, 153));
+
+        l_judul.setFont(new java.awt.Font("Serif", 1, 18)); // NOI18N
         l_judul.setForeground(new java.awt.Color(255, 255, 255));
         l_judul.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         l_judul.setText("JUDUL");
@@ -94,7 +97,7 @@ public class FormCheckIn extends javax.swing.JDialog {
                 .addContainerGap())
         );
 
-        b_ok.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        b_ok.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         b_ok.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/accept.png"))); // NOI18N
         b_ok.setText("OK");
         b_ok.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -104,8 +107,8 @@ public class FormCheckIn extends javax.swing.JDialog {
             }
         });
 
-        b_reset.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        b_reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/refresh.png"))); // NOI18N
+        b_reset.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
+        b_reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/refresh_561210.png"))); // NOI18N
         b_reset.setText("Reset");
         b_reset.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_reset.addActionListener(new java.awt.event.ActionListener() {
@@ -116,32 +119,32 @@ public class FormCheckIn extends javax.swing.JDialog {
 
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(), "Tamu", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 18))); // NOI18N
 
-        c_jenis_kelamin.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        c_jenis_kelamin.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         c_jenis_kelamin.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Pilih--", "Laki-laki", "Perempuan" }));
 
-        t_no_tlp.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        t_no_tlp.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
 
-        t_nama_tamu.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        t_nama_tamu.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
 
-        t_no_tamu.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        t_no_tamu.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         jLabel7.setText("Nama");
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         jLabel8.setText("ID/No KTP");
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         jLabel9.setText("Jenis Kelamin");
 
-        jLabel10.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel10.setText("Akamat");
+        jLabel10.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
+        jLabel10.setText("Alamat");
 
-        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel11.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         jLabel11.setText("No Tlp");
 
         t_alamat.setColumns(20);
-        t_alamat.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        t_alamat.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         t_alamat.setRows(5);
         jScrollPane1.setViewportView(t_alamat);
 
@@ -161,7 +164,7 @@ public class FormCheckIn extends javax.swing.JDialog {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(t_nama_tamu)
                     .addComponent(t_no_tamu)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 253, Short.MAX_VALUE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 263, Short.MAX_VALUE)
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addComponent(c_jenis_kelamin, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
@@ -199,22 +202,22 @@ public class FormCheckIn extends javax.swing.JDialog {
 
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED), "Kamar", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 0, 18))); // NOI18N
 
-        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         jLabel5.setText("Harga/Kamar");
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         jLabel4.setText("Tipe Kamar");
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         jLabel3.setText("No Kamar");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         jLabel2.setText("Lantai");
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         jLabel1.setText("Kode Kamar");
 
-        c_kode_kamar.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        c_kode_kamar.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         c_kode_kamar.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "--Pilih--" }));
         c_kode_kamar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -222,20 +225,16 @@ public class FormCheckIn extends javax.swing.JDialog {
             }
         });
 
-        l_lantai.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        l_lantai.setForeground(new java.awt.Color(255, 255, 255));
+        l_lantai.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         l_lantai.setText("-");
 
-        l_no_kamar.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        l_no_kamar.setForeground(new java.awt.Color(255, 255, 255));
+        l_no_kamar.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         l_no_kamar.setText("-");
 
-        l_tipe_kamar.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        l_tipe_kamar.setForeground(new java.awt.Color(255, 255, 255));
+        l_tipe_kamar.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         l_tipe_kamar.setText("-");
 
-        l_harga.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        l_harga.setForeground(new java.awt.Color(255, 255, 255));
+        l_harga.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         l_harga.setText("-");
 
         l_info.setFont(new java.awt.Font("Tahoma", 2, 18)); // NOI18N
@@ -294,23 +293,19 @@ public class FormCheckIn extends javax.swing.JDialog {
                 .addContainerGap())
         );
 
-        l_jam.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        l_jam.setForeground(new java.awt.Color(255, 255, 255));
+        l_jam.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         l_jam.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         l_jam.setText("Jam");
 
-        l_tanggal.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        l_tanggal.setForeground(new java.awt.Color(255, 255, 255));
+        l_tanggal.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         l_tanggal.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         l_tanggal.setText("Tanggal");
 
-        l_tanggal1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        l_tanggal1.setForeground(new java.awt.Color(255, 255, 255));
+        l_tanggal1.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         l_tanggal1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         l_tanggal1.setText("Tanggal");
 
-        l_jam1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        l_jam1.setForeground(new java.awt.Color(255, 255, 255));
+        l_jam1.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
         l_jam1.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         l_jam1.setText("Jam");
 

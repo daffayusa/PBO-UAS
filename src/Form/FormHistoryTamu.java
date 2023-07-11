@@ -34,8 +34,8 @@ public class FormHistoryTamu extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        b_refersh.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        b_refersh.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/refresh.png"))); // NOI18N
+        b_refersh.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
+        b_refersh.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/refresh_561210.png"))); // NOI18N
         b_refersh.setText("Refresh");
         b_refersh.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_refersh.addActionListener(new java.awt.event.ActionListener() {
@@ -72,9 +72,9 @@ public class FormHistoryTamu extends javax.swing.JDialog {
             }
         });
 
-        jPanel4.setBackground(new java.awt.Color(51, 82, 72));
+        jPanel4.setBackground(new java.awt.Color(0, 153, 153));
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel3.setText("Data History Tamu");
