@@ -157,7 +157,7 @@ public class FormLogin extends javax.swing.JFrame {
             ps.setString(2, t_password.getText());
             ResultSet rs = ps.executeQuery();
             if (rs.next()){
-                FormMain form_utama = new FormMain();
+                    FormMain form_utama = new FormMain();
                 form_utama.l_id_admin.setText(rs.getString("id_admin"));
                 form_utama.l_admin.setText(rs.getString("nama_admin"));
                 form_utama.setVisible(true);
