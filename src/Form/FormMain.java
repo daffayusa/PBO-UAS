@@ -127,7 +127,7 @@ public class FormMain extends javax.swing.JFrame {
         jScrollPane1.setViewportView(tbl_karyawan);
 
         b_tambah_karyawan.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
-        b_tambah_karyawan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/add.png"))); // NOI18N
+        b_tambah_karyawan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/round-add-button.png"))); // NOI18N
         b_tambah_karyawan.setText("Tambah");
         b_tambah_karyawan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_tambah_karyawan.addActionListener(new java.awt.event.ActionListener() {
@@ -137,7 +137,7 @@ public class FormMain extends javax.swing.JFrame {
         });
 
         b_edit_karyawan.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
-        b_edit_karyawan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/ruler_pencil.png"))); // NOI18N
+        b_edit_karyawan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/pen_10263451.png"))); // NOI18N
         b_edit_karyawan.setText("Edit");
         b_edit_karyawan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_edit_karyawan.addActionListener(new java.awt.event.ActionListener() {
@@ -147,7 +147,7 @@ public class FormMain extends javax.swing.JFrame {
         });
 
         b_delete_karyawan.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
-        b_delete_karyawan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/delete.png"))); // NOI18N
+        b_delete_karyawan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/delete_3221845.png"))); // NOI18N
         b_delete_karyawan.setText("Delete");
         b_delete_karyawan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_delete_karyawan.addActionListener(new java.awt.event.ActionListener() {
@@ -157,7 +157,7 @@ public class FormMain extends javax.swing.JFrame {
         });
 
         b_cari_karyawan.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        b_cari_karyawan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/search 24x24.png"))); // NOI18N
+        b_cari_karyawan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/magnifying-glass_44794.png"))); // NOI18N
         b_cari_karyawan.setText("Cari");
         b_cari_karyawan.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_cari_karyawan.addActionListener(new java.awt.event.ActionListener() {
@@ -211,7 +211,7 @@ public class FormMain extends javax.swing.JFrame {
                         .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(b_refersh_karyawan, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 814, Short.MAX_VALUE))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 786, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(panel_karyawanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(b_tambah_karyawan, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -233,8 +233,8 @@ public class FormMain extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(b_edit_karyawan)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(b_delete_karyawan)
-                        .addGap(0, 98, Short.MAX_VALUE))
+                        .addComponent(b_delete_karyawan, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 75, Short.MAX_VALUE))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(panel_karyawanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -276,7 +276,7 @@ public class FormMain extends javax.swing.JFrame {
         });
 
         b_edit_kamar.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
-        b_edit_kamar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/ruler_pencil.png"))); // NOI18N
+        b_edit_kamar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/pen_10263451.png"))); // NOI18N
         b_edit_kamar.setText("Edit");
         b_edit_kamar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_edit_kamar.addActionListener(new java.awt.event.ActionListener() {
@@ -286,7 +286,7 @@ public class FormMain extends javax.swing.JFrame {
         });
 
         b_delete_kamar.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
-        b_delete_kamar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/delete.png"))); // NOI18N
+        b_delete_kamar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/delete_3221845.png"))); // NOI18N
         b_delete_kamar.setText("Delete");
         b_delete_kamar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_delete_kamar.addActionListener(new java.awt.event.ActionListener() {
@@ -296,7 +296,7 @@ public class FormMain extends javax.swing.JFrame {
         });
 
         b_cari_kamar.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        b_cari_kamar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/search 24x24.png"))); // NOI18N
+        b_cari_kamar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/magnifying-glass_44794.png"))); // NOI18N
         b_cari_kamar.setText("Cari");
         b_cari_kamar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_cari_kamar.addActionListener(new java.awt.event.ActionListener() {
@@ -349,7 +349,7 @@ public class FormMain extends javax.swing.JFrame {
                         .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(b_refersh_kamar, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 822, Short.MAX_VALUE))
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 786, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(panel_kamarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(b_tambah_kamar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -404,7 +404,7 @@ public class FormMain extends javax.swing.JFrame {
         jScrollPane4.setViewportView(tbl_tamu);
 
         b_tambah_tamu.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
-        b_tambah_tamu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/add_image.png"))); // NOI18N
+        b_tambah_tamu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/add-user_7542128.png"))); // NOI18N
         b_tambah_tamu.setText("Cek In");
         b_tambah_tamu.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_tambah_tamu.addActionListener(new java.awt.event.ActionListener() {
@@ -414,7 +414,7 @@ public class FormMain extends javax.swing.JFrame {
         });
 
         b_cekout.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
-        b_cekout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/delete_image.png"))); // NOI18N
+        b_cekout.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/trash_5510065.png"))); // NOI18N
         b_cekout.setText("Cek Out");
         b_cekout.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_cekout.addActionListener(new java.awt.event.ActionListener() {
@@ -424,7 +424,7 @@ public class FormMain extends javax.swing.JFrame {
         });
 
         b_history.setFont(new java.awt.Font("Serif", 0, 14)); // NOI18N
-        b_history.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/pin.png"))); // NOI18N
+        b_history.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/history_565526.png"))); // NOI18N
         b_history.setText("History");
         b_history.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_history.addActionListener(new java.awt.event.ActionListener() {
@@ -434,7 +434,7 @@ public class FormMain extends javax.swing.JFrame {
         });
 
         b_cari_kamar2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        b_cari_kamar2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/search 24x24.png"))); // NOI18N
+        b_cari_kamar2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/magnifying-glass_44794.png"))); // NOI18N
         b_cari_kamar2.setText("Cari");
         b_cari_kamar2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_cari_kamar2.addActionListener(new java.awt.event.ActionListener() {
@@ -487,7 +487,7 @@ public class FormMain extends javax.swing.JFrame {
                         .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(b_refersh_tamu, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 813, Short.MAX_VALUE))
+                    .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 777, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(panel_tamuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(b_tambah_tamu, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -509,8 +509,8 @@ public class FormMain extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(b_cekout)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(b_history)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                        .addComponent(b_history, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 59, Short.MAX_VALUE))
                     .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(panel_tamuLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)

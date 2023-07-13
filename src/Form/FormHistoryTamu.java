@@ -55,7 +55,7 @@ public class FormHistoryTamu extends javax.swing.JDialog {
         jScrollPane1.setViewportView(tbl_history);
 
         b_cari.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        b_cari.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/search 24x24.png"))); // NOI18N
+        b_cari.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/magnifying-glass_44794.png"))); // NOI18N
         b_cari.setText("Cari");
         b_cari.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         b_cari.addActionListener(new java.awt.event.ActionListener() {
