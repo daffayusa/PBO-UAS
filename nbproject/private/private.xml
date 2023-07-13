@@ -3,6 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/D:/Kuliah/Semester%204/PBO/AplikasiPesanKamar/src/Form/FormMain.java</file>
             <file>file:/D:/Kuliah/Semester%204/PBO/AplikasiPesanKamar/src/Img/hotel-sign_527079.png</file>
             <file>file:/D:/Kuliah/Semester%204/PBO/AplikasiPesanKamar/src/Form/FormLogin.java</file>
@@ -13,6 +14,12 @@
             <file>file:/D:/Kuliah/Semester%204/PBO/AplikasiPesanKamar/src/Form/ConnectionMySQL.java</file>
             <file>file:/D:/Kuliah/Semester%204/PBO/AplikasiPesanKamar/src/Img/delete_3221845.png</file>
             <file>file:/D:/Kuliah/Semester%204/PBO/AplikasiPesanKamar/src/Img/add-user_4202259(1).png</file>
+=======
+            <file>file:/C:/Coding/coding2/PBO/PBO-UAS/src/Form/FormAddEditKamar.java</file>
+            <file>file:/C:/Coding/coding2/PBO/PBO-UAS/src/Form/FormHistoryTamu.java</file>
+            <file>file:/C:/Coding/coding2/PBO/PBO-UAS/src/Form/FormMain.java</file>
+            <file>file:/C:/Coding/coding2/PBO/PBO-UAS/src/Form/ConnectionMySQL.java</file>
+>>>>>>> 767ab5a2c6066cb05e7a043239677055ab9c39b3
         </group>
     </open-files>
 </project-private>
