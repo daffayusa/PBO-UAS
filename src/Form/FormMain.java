@@ -174,7 +174,7 @@ public class FormMain extends javax.swing.JFrame {
             }
         });
 
-        jPanel4.setBackground(new java.awt.Color(51, 51, 255));
+        jPanel4.setBackground(new java.awt.Color(0, 51, 255));
 
         jLabel3.setBackground(new java.awt.Color(102, 0, 102));
         jLabel3.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
@@ -313,7 +313,11 @@ public class FormMain extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
         jPanel6.setBackground(new java.awt.Color(51, 51, 255));
+=======
+        jPanel6.setBackground(new java.awt.Color(0, 51, 255));
+>>>>>>> 377ceebca2f9f099d8b40f9a539df68cf176c615
 
         jLabel4.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
@@ -451,7 +455,11 @@ public class FormMain extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
         jPanel8.setBackground(new java.awt.Color(51, 51, 255));
+=======
+        jPanel8.setBackground(new java.awt.Color(0, 51, 255));
+>>>>>>> 377ceebca2f9f099d8b40f9a539df68cf176c615
 
         jLabel6.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
