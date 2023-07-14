@@ -61,6 +61,11 @@ public class FormLogin extends javax.swing.JFrame {
         jLabel3.setText("Password");
 
         t_password.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        t_password.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                t_passwordActionPerformed(evt);
+            }
+        });
         t_password.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 t_passwordKeyPressed(evt);
@@ -265,6 +270,10 @@ public class FormLogin extends javax.swing.JFrame {
             }
         }
     }//GEN-LAST:event_t_usernameKeyPressed
+
+    private void t_passwordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_t_passwordActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_t_passwordActionPerformed
 
     /**
      * @param args the command line arguments
